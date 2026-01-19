@@ -9,15 +9,20 @@ header {
   background: linear-gradient(135deg, #ff2f92, #ffd600, #4fd1c5);
   color: white;
   text-align: center;
-  padding: 30px 15px;
+  padding: 35px 15px;
 }
 
 section {
   background: white;
   margin: 20px;
-  padding: 20px;
-  border-radius: 16px;
+  padding: 22px;
+  border-radius: 18px;
   text-align: center;
+}
+
+.apresentacao p {
+  font-size: 1.05em;
+  margin-bottom: 12px;
 }
 
 .aviso {
@@ -32,11 +37,16 @@ footer {
 
 footer a {
   display: inline-block;
-  margin-top: 10px;
-  padding: 12px 22px;
+  margin: 12px 0;
+  padding: 14px 26px;
   background: #25d366;
   color: white;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 30px;
   font-weight: bold;
+}
+
+.assinatura {
+  font-size: 0.9em;
+  color: #777;
 }
